@@ -55,7 +55,18 @@ body {
     width: 190px;
     padding: 5px 0;
     font-size: 16px;
+    text-decoration: none;
+    border: 1px solid white;
+    border-radius: 5px;
+    transition: ease-in-out .3s;
 }
+
+.description:hover{
+    background-color: #eb6600;
+    box-shadow: 0px 0px 22px -10px rgba(255,255,255,1);
+    transition: ease-in-out .3s;
+}
+
 @media only screen and (min-width: 400px) {
     .title{
         font-size: 90px;
